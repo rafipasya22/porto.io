@@ -1,0 +1,374 @@
+html{
+    font-family: "Quicksand", sans-serif;
+    width: 100vw;
+}
+
+#carouselExampleControls img{
+    height: 100vh;
+}
+
+#banner{
+    z-index: -1;
+}
+
+#perk{
+    font-weight: bolder;
+    color:white;
+   
+}
+
+#jumbowumbo{
+    margin-top: 15vh;
+    height: 85vh;
+    color: white;
+    font-weight: bolder;
+    
+}
+
+.jumbotron .container{
+    height: 75vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+#perk3, #perk2, #desk2, #desk3{
+    color: #6036b4 !important;
+}
+
+#perk2, #perk3{
+    font-weight: bolder;
+}
+
+.jumbotron .container .text, .jumbotron .container .img{
+    margin-bottom: 50px;
+}
+
+.aigh{
+    width: 35%;
+    height: auto !important;
+    background-color: #d7d7d7;
+}
+
+.navbar{
+    transition: all 0.5s;
+    padding: 0.5rem 1rem;
+
+}
+
+.navbar-nav {
+    margin-left: 100vw;
+    display: flex;
+    align-items: center; 
+  }
+
+.navbar-brand{
+    color: #6036b4 ;
+    transition: all 1s;
+    
+}
+
+.text-container {
+    position: absolute; /* Position the text container absolutely */
+    top: 50%; /* Center vertically */
+    left: 50%; /* Center horizontally */
+    transform: translate(-50%, -50%); /* Adjust for the text size */
+    color: white; /* Change text color to ensure readability */
+    text-align: center; /* Center the text */
+    z-index: 10; /* Make sure it's above the image */
+  }
+
+.navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .show>.nav-link{
+    color: #ffde59;
+}
+
+.navbar-dark .navbar-nav .nav-link{
+    color: #ffde59;
+}
+
+.nav-link{
+    font-weight: 600;
+    margin: 0 0.5rem;
+}
+
+.navbar-dark {
+    color: white !important;
+}
+
+.navbar-dark.navbar-udahscroll .navbar-nav .nav-link,
+.navbar-dark.navbar-udahscroll .navbar-brand {
+    color: white !important;
+}
+
+.navbar-udahscroll{
+    background-color: #6036b4;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.15);
+}
+
+.navbar-dark .navbar-brand{
+    color: #6036b4;
+}
+
+#butonn{
+    transition: all 1s;
+}
+
+@media (max-width: 700px) {
+    .pemisah{
+        
+        flex-direction: column;
+       
+    }
+
+    
+}
+
+.navbar #btn {
+    display: inline-block;
+    order: 2;
+    background: none; 
+    border: none;
+  }
+
+#btn img{
+    width: 30px;
+    height: 20%;
+}
+  
+
+.nav-item{
+    transform: translateX(2000%);
+    opacity: 0;
+    transition: transform 0.5s ease, opacity 0.5s ease;
+}
+
+.nav-item.slidein{
+    transform: translateX(0);
+    opacity: 1;
+}
+
+#layanan{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #6036b4;
+}
+
+#layanan #perk2, #layanan #desk2{
+    color: #ffde59 !important;
+}
+
+#layanan .card{
+    margin-top: 2vw;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.5s;
+    background-color: #ffde59;
+    border-radius: 14px;
+}
+
+#layanan .card img{
+    margin-top: 4vh;
+}
+
+#layanan .card:hover{
+    transform: translateY(-30px);
+}
+
+.btn{
+    background-color: #6036b4;
+    border: none;
+}
+
+.btn:hover{
+    background-color: #ffde59;
+    color: #6036b4;
+}
+
+#about-section{
+    margin-top: 2vh;
+    margin-bottom: 5vh;
+}
+
+#about-section .col-lg-4{
+    margin-top: 4vh;
+}
+
+.footer {
+    font-size: .9rem; 
+    background-color: #ffde59 !important;
+}
+.footer .footer-title {
+    font-size: 1.1rem;
+    margin-bottom: 30px; 
+    color: #6036b4;
+}
+.footer ul li {
+    margin-bottom: 10px; 
+}
+.footer a {
+    color: #6036b4;
+    text-decoration: none; 
+    transition: all 0.5s;
+}
+.footer a:hover {
+    color: #111111; 
+}
+
+.footer .col-md-5{
+    margin-top: 4vh;
+}
+.footer .col-md-3{
+    margin-top: 4vh;
+}
+
+#contact{
+    margin-bottom: 4vh;
+}
+
+.kontak ul{
+    text-decoration: none;
+    list-style-type: none;
+    
+}
+.kontak ul li{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding: 5px;
+    margin-bottom: 5px;
+}
+
+
+.pemisah{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#layanan .row.pt-4{
+    justify-content: center;
+}
+
+#Tim .row.pt-4{
+    justify-content: center;
+}
+
+
+#proj .row.pt-4{
+    justify-content: center;
+}
+
+#proj{
+    margin-top: 4vh;
+    margin-bottom: 4vh;
+}
+
+
+#proj .card{
+    margin-top: 2vw;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    display: flex;
+    align-items: center;
+    transition: all 0.5s;
+    background-color: #ffde59;
+    border-radius: 14px;
+}
+
+#proj .card #batuq{
+    margin-top: 4vh;
+    border-radius: 7%;
+}
+
+#proj .card #meka{
+    border-top-left-radius: 14px;
+    border-top-right-radius: 14px;
+}
+
+#proj .card:hover{
+    transform: translateY(-30px);
+}
+
+.content3{
+    padding-top: 48px;
+}
+
+.content3 span{
+    margin-right: 1vw;
+}
+
+
+
+#contact{
+    padding-left: 3vw;
+    padding-right: 3vw;
+}
+
+@media (min-width: 768px) {
+    #contact .col-md-5 {
+        flex: 0 0 auto;
+        width: 90%;
+    }
+}
+
+#contact .btn:hover{
+    background-color: #ffde59 !important;
+    color: #6036b4 !important;
+}
+
+#client{
+    margin-top: 4vh;
+    margin-bottom: 4vh;
+}
+
+#layanan{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #6036b4;
+}
+
+#layanan #perk2, #layanan #desk2{
+    color: #ffde59 !important;
+}
+
+#Tim #perk2, #Tim #desk2{
+    color: #ffde59 !important;
+}
+
+#Tim{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #6036b4;
+    margin-bottom: 4vh;
+}
+
+#Tim .card{
+    margin-top: 2vw;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.5s;
+    background-color: #ffde59;
+    border-radius: 14px;
+    padding: 0;
+}
+
+#Tim .card img{
+    border-top-right-radius: 14px;
+    border-top-left-radius: 14px;
+    height: 40vh;
+}
+
+#Tim .card:hover{
+    transform: translateY(-30px);
+}
